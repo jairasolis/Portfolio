@@ -17,6 +17,11 @@
     --p-color: #636363;
 }
 
+::selection {
+    background-color: var(--main-color);
+    color: var(--white);
+}
+
 * {
     font-family: var(--font);
 }
@@ -25,10 +30,13 @@ html {
     scroll-behavior: smooth;
 }
 
+p {
+    font-size: 16px;
+}
+
 .body-custom {
     background-color: var(--white);
 }
-
 
 .navbar {
     transition: opacity 0.5s ease-in-out; 
@@ -216,10 +224,14 @@ html {
     padding: 7px;
     border-radius: 3px;
 }
+.gh-link {
+    overflow: hidden;
+    display: inline-block; /* Ensure the link only takes the necessary width */
+}
 
 .gh-button {
     display: flex;
-    width: 150px;
+    width: 150px; /* Width excluding margin */
     height: 50px;
     border-radius: 10px;
     border: 1px solid var(--main-color);
@@ -326,21 +338,21 @@ html {
     transition: 1s ease-in-out;
 }
 
-.ed-details h3 {
-    color: var(--titles-color);
+.ed-details h4 {
+    color: var(--main-color);
 }
 
 .ed-line {
     width: 3px;
     height: 140px;
-    background-color: var(--main-color-10);
+    background-color: #3d3d3d0c;
     transition: 0.3s ease-in-out;
 }
 
 .ed-line-3 {
     width: 3px;
     height: 270px;
-    background-color: var(--main-color-10);
+    background-color: #3d3d3d0c;
     transition: 0.3s ease-in-out;
 
 }
@@ -369,6 +381,7 @@ footer {
     /* border-top: 2px solid #7b999760; */
     background-color: var(--main-color);
 }
+
 footer img{
     width: 30px;
     height: 30px;
@@ -376,11 +389,12 @@ footer img{
 }
 
 .footer a i {
-    color: var(--main-color);
+    color: var(--white);
 }
 
 .rights p {
     color: var(--white);
+    font-size: 13px;
 }
 
 @media (max-width: 475px) {
