@@ -34,6 +34,11 @@ p {
     font-size: 16px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+
 .body-custom {
     background-color: var(--white);
 }
@@ -226,12 +231,12 @@ p {
 }
 .gh-link {
     overflow: hidden;
-    display: inline-block; /* Ensure the link only takes the necessary width */
+    display: inline-block; 
 }
 
 .gh-button {
     display: flex;
-    width: 150px; /* Width excluding margin */
+    width: 150px; 
     height: 50px;
     border-radius: 10px;
     border: 1px solid var(--main-color);
@@ -416,6 +421,10 @@ footer img{
     .hero h4 {
         font-size: 20px;
     }
+
+    /* .ed-details h4 {
+        font-size: 20px;
+    } */
 
 }
 
