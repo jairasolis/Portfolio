@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-btqQ6pz6gknK3WPTsZAPNMXG4P5ZCS2G97Zssz2Go1Czgci1lFfku0QwEUsh2hXl" crossorigin="anonymous"></script>    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon-light.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/ca12f894cb.js" crossorigin="anonymous"></script>
+    <title> My Portfolio </title>
+</head>
+<body class="body vh-100 body-custom">
+
+    <!------ NAVBAR ------->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-sm">
+            <a class="navbar-brand"> <img src="images/logo-dark.png" alt=""> </a>
+            <button class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="li pe-5">
+                        <a class="nav-link" href="#projects"> Projects </a>
+                    </li>
+                    <li class="li pe-5">
+                        <a class="nav-link" href="#skills"> Skills </a>
+                    </li>
+                    <li class="li pe-5">
+                        <a class="nav-link" href="#about-me"> About </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <a href="#" class="go-top-btn"> <i class="fa-solid fa-chevron-up"></i> </a>
+
+            <!------- HERO SECTION ------>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-7 hero">
+                    <h1> Jaira Solis </h1>
+                    <h4> an aspiring web developer </h4>
+                    <div class="socials">
+                        <a href="https://github.com/jairasolis" target="_blank">
+                            <div class="social"> <i class="fa-brands fa-github-alt"></i> </div> 
+                        </a>
+                        <a href="https://www.linkedin.com/in/jaira-solis/" target="_blank">
+                            <div class="social"> <i class="fa-brands fa-linkedin-in"></i> </div>
+                        </a>
+                        <a href="https://www.facebook.com/jairafrednicole.solis/" target="_blank">
+                            <div class="social"> <i class="fa-brands fa-facebook-f"></i> </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-3 hero">
+                    <img src="images/logo-thin.png" alt="" class="hero_img">
+                </div>
+            </div>
+
+            <!------ PROJECTS SECTION ------>
+
+            <div class="line"> </div>
+            <div class="row justify-content-center projects" id="projects">
+                <h4 class="title"> _projects_ </h4>
+                <div class="projects-container">
+                    <div class="row box"> 
+                        <div class="col m-3 left-img"> 
+                            <img src="images/projects/upickup.png" alt="" class="projects-images">
+                        </div>
+                        <div class="col m-4 proj-details">
+                            <h3> U-Pick Up (W.I.P.) </h3>
+                            <div class="languages"> 
+                                <p> react </p>
+                                <p> django </p>
+                            </div>
+                            <p class="description"> U-Pick Up updates the students on the availability of the modules, uniforms, and books of the
+                                University of Pangasinan. Our goal is to create a user-friendly platform that facilitates a
+                                hassle-free process for claiming these materials. </p>
+                            
+                            <a href="https://github.com/jairasolis/UPickUP-Fullstack" target="_blank">
+                                <div class="gh-button"> 
+                                    <i class="fa-brands fa-github-alt"></i>
+                                </div>
+                            </a>
+                        </div> 
+                    </div>
+                    <div class="row box"> 
+                        <div class="col m-3 order-lg-2 left-img"> 
+                            <img src="images/projects/shinanaide.png" alt="" class="projects-images">
+                        </div>
+                        <div class="col order-lg-1 m-4 proj-details">
+                            <h3> Shinanaide!!! </h3>
+                            <div class="languages"> 
+                                <p> c# </p>
+                                <p> unity </p>
+                            </div>
+                            <p class="description"> Shinanaide! is a two-player game in which players must battle for their lives. Each of them has 3
+                                hearts, with the items they are holding, each player will need to stop a "thing" from approaching
+                                them. Their selected items will determine the "thing". </p>
+                            
+                            <a href="https://github.com/jairasolis/shinanaide" target="_blank">
+                                <div class="gh-button"> 
+                                    <i class="fa-brands fa-github-alt"></i>
+                                </div>  
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row box"> 
+                        <div class="col m-3 left-img"> 
+                            <img src="images/projects/cozyDen.png" alt="" class="projects-images">
+                        </div>
+                        <div class="col m-4 proj-details">
+                            <h3> CozyDen </h3>
+                            <div class="languages"> 
+                                <p> html </p>
+                                <p> css </p>
+                                <p> javascript </p>
+                            </div>
+                            <p class="description"> A website that offers support in designing and building you dream home; personalized design suggestions to new homeowners, tailored to their unique preferences and choices. </p>
+                            <a href="https://github.com/jairasolis/CozyDen" target="_blank">
+                                <div class="gh-button"> 
+                                    <i class="fa-brands fa-github-alt"></i>
+                                </div>  
+                            </a>
+                        </div> 
+                    </div>
+                    <div class="row box"> 
+                        <div class="col m-3 order-lg-2 left-img"> 
+                            <img src="images/projects/findMyPair.png" alt="" class="projects-images">
+                        </div>
+                        <div class="col m-4 order-lg-1 proj-details">
+                            <h3> Find My Pair </h3>
+                            <div class="languages"> 
+                                <p> javafx </p>
+                            </div>
+                            <p class="description"> A three-level color matching game created with JavaFX. First Year Second Semester Final Project Requirement. </p>
+                            <a href="https://github.com/vllnvmonik/FindMyPairFinal" target="_blank" class="gh">
+                                <div class="gh-button"> 
+                                    <i class="fa-brands fa-github-alt"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row box"> 
+                        <div class="col m-3 left-img"> 
+                            <img src="images/projects/heptaCalc.png" alt="" class="projects-images">
+                        </div>
+                        <div class="col m-4 proj-details">
+                            <h3> HeptaCalc </h3>
+                            <div class="languages"> 
+                                <p> python GUI-tkinter </p>
+                            </div>
+                            <p class="description"> An app dedicated to Mathematics in the Modern World subject, aiming to help learners who have difficulty understanding the lessons in the subject  </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------ SKILLS SECTION ------>
+
+            <div class="line"> </div>
+
+            <div class="row skills" id="skills">
+                <h4 class="title"> _skills_ </h4>
+                <div class="skills-container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 col-lg-2 skill-cards"> 
+                            <i class="fa-brands fa-html5"></i> 
+                            <p> html </p>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-2 skill-cards"> 
+                            <i class="fa-brands fa-css3-alt"></i> 
+                            <p> css </p>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-2 skill-cards"> 
+                            <i class="fa-brands fa-js"></i> 
+                            <p> javascript </p>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-2 skill-cards"> 
+                            <i class="fa-brands fa-react"></i>
+                            <p> reactjs </p>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-2 skill-cards"> 
+                            <i class="fa-brands fa-bootstrap"></i> 
+                            <p> bootstrap </p>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-2 skill-cards"> 
+                            <i class="fa-brands fa-python"></i> 
+                            <p> python </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 skill-cards"> 
+                            <i class="fa-brands fa-java"></i> 
+                            <p> java </p>
+                        </div>
+                        <div class="col-sm-6 skill-cards"> 
+                            <i class="fa-brands fa-android"></i> 
+                            <p> kotlin </p>
+                        </div>
+                        <div class="col-sm-6 skill-cards"> 
+                            <i class="fa-solid fa-database"></i> 
+                            <p> mysql </p>
+                        </div>
+                        <div class="col-sm-6 skill-cards"> 
+                            <div class="i"> C# </div> 
+                        </div>
+                        <div class="col-sm-6 skill-cards"> 
+                            <i class="fa-brands fa-unity"></i> 
+                            <p> unity </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------ ABOUT ME SECTION ------>
+
+            <div class="line"> </div>
+            <div class="row justify-content-center aboutme" id="about-me">
+                <h4 class="title"> _about_me_ </h4>
+                <div class="aboutme-container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-sm-12 col-lg-6"> 
+                            <p class="aboutme-text"> I'm <span>Jaira Solis</span>, a 20-year-old second-year Information Technology student at <span>PHINMA-University of Pangasinan</span>. My passion for technology has been a driving force in my educational journey. Currently, I'm honing my skills in various programming languages and technologies, including Java, Python, and Kotlin, which I've acquired through my academic pursuits. </p>
+                            <p class="aboutme-text"> Beyond the classroom, I am dedicated to continuous learning and personal growth. I actively seek knowledge through paid online courses and free resources, delving into the realms of <span>game development</span> and <span>web technologies</span>. My expanding skill set encompasses HTML, CSS, JavaScript, React, Bootstrap, C#, and more. </p>
+                            <div class="dl-resume">
+                                <a href="images/solis_resume.pdf" download><p> Download Resume </p></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-lg-4 aboutme-img"> 
+                            <img src="images/about-me-img.png" alt="" class="aboutme_img"> 
+                        </div>
+                    </div>
+                </div>
+                <h4 class="title" id="education"> _my_education_ </h4>
+                <div class="education-container">
+                    <div class="ed">
+                        <div class="left">
+                            <div class="ed-line"></div>
+                        </div>
+                        <div class="ed-details">
+                            <h3> BS in Information Technology </h3>
+                            <p> PHINMA-University of Pangasinan</p>
+                            <p> 2022-present </p>
+                        </div>
+                    </div>
+                    <div class="ed">
+                        <div class="left">
+                            <div class="ed-line"></div>
+                        </div>                        
+                        <div class="ed-details">
+                            <h3> High School </h3>
+                            <p> PHINMA-University of Pangasinan</p>
+                            <p> 2016-2022 </p>
+                        </div>
+                    </div>
+                    <div class="ed-3">
+                        <div class="left">
+                            <div class="ed-line-3"></div>
+                        </div>                        
+                        <div class="ed-details">
+                            <h3> Elementary </h3>
+                            <p> PHINMA-University of Pangasinan</p>
+                            <p> 2015-2016 </p>
+                            <hr>
+                            <p> Perpetual Help College of Pangasinan </p>
+                            <p> 2011-2015 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------ CONTACT SECTION ------>
+
+            <!-- <div class="line"> </div>
+            <div class="row contact-me" id="contact">
+                <h4 class="title">_let's_work_together_</h4>
+                <div class="form-area">
+                    <div class="row justify-content-center">
+                        <form class="contact-form col-md-6">
+                            <p> ****not yet working**** </p>
+                            <div class="form-group mb-3">
+                                <label for="inputName">Name</label>
+                                <input type="text" class="form-control mt-2" id="inputName" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="inputEmail">Email</label>
+                                <input type="email" class="form-control mt-2" id="inputEmail" placeholder="Your email" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="inputMessage">Message</label>
+                                <textarea name="" class="form-control mt-2" id="inputMessage" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit-btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </main>
+
+    <!------ FOOTER ------>
+
+    <footer class="text-center">
+        <img src="images/favicon-light.png" alt="">
+        <div class="container pt-4 footer">            
+            <a class="btn btn-floating m-1 rounded-1 bg-white" href="https://github.com/jairasolis" target="_blank">
+                <i class="fa-brands fa-github-alt"></i>
+            </a>
+            <a class="btn btn-floating m-1 rounded-1 bg-white" href="https://www.linkedin.com/in/jaira-solis/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a class="btn  btn-floating m-1 rounded-1 bg-white" href="https://www.facebook.com/jairafrednicole.solis/" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+        </div>
+        <div class="text-center p-1 rights">
+            <p class="pt-2">All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
