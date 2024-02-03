@@ -88,6 +88,10 @@ body {
     color: var(--main-color-60);
 }
 
+.navbar-toggler {
+    color: var(--main-color);
+}
+
 .container {
     padding-top: 100px;
 }
@@ -382,7 +386,6 @@ body {
     height: 270px;
     background-color: #3d3d3d0c;
     transition: 0.3s ease-in-out;
-
 }
 
 .ed:hover .ed-line,
