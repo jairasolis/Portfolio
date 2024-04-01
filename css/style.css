@@ -406,6 +406,29 @@ body {
     font-size: 14px;
 }
 
+.course-container {
+    display: flex;
+    gap: 30px;
+}
+
+.course-container img{
+    width: 380px;
+    height: 280px;
+}
+
+.course-container .image{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image {
+    color: var(--main-color);
+}
+
+.image p {
+    text-align: center;
+}
 
 footer {
     margin-top: 100px;
